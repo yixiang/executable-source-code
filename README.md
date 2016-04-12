@@ -12,7 +12,7 @@ $ ./executable.c hello
 
 ## Why do I need this?
 
- * You can write simple single source-file command-line tools in C/C++/Java etc. and deploy them as-is.
+ * You can write simple single source-file command-line tools in C/C++/Java etc. and deploy them as-is. You favorite language suddenly becomes a scripting language as well.
  * Or think of other innovative use of this.
 
 ## How does it work?
