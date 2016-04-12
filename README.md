@@ -21,4 +21,8 @@ The first line of the source files is a comment in the target language, but it i
 
 ## How make create my own executable files?
 
-To make your own executable source files, open the file in the language of choice and copy the first 3 lines of code to your own source file.
+To make your own executable source files:
+ 1. open the file in the language of choice
+ 2. and copy the first 3 lines of code to your own source file.
+ 3. `$ chmod +x path/to/your_file`
+ 4. `$ path/to/your_file`
