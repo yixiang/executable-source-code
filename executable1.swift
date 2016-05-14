@@ -1,4 +1,4 @@
-//usr/bin/env xcrun swift "$0" $*;exit
+#!/usr/bin/env swift
 
 let args = Process.arguments
 if args.count <= 1 {
