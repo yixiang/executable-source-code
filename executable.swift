@@ -1,10 +1,8 @@
 //usr/bin/env xcrun swift "$0" $*;exit
 
-if C_ARGC == 1 {
-    println("missing arguments")
+let args = Process.arguments
+if args.count <= 1 {
+    print("missing args")
 } else {
-    println("arguments:")
-    for i in 1..<C_ARGC {
-        println("    \(C_ARGV[Int(i)])")
-    }
+    print("hello \(args[1])")
 }
