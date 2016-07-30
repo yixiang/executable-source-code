@@ -4,7 +4,7 @@
 
 import static java.lang.System.out;
 
-public class executable {
+public class java_executable {
     public static void main(String[] args) {
         if(args.length > 0) {
             out.println("arguments:");
