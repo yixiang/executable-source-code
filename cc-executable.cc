@@ -1,4 +1,4 @@
-//usr/bin/env c++ -o/tmp/`basename "$0"` $0 && /tmp/`basename "$0"` $*;exit
+//usr/bin/env c++ -std=c++11 -o/tmp/`basename "$0"` $0 && /tmp/`basename "$0"` $*;exit
 // To run this self compiling file, type the following command in terminal.
 // $ chmod +x <name_of_this_file>.cc && ./<name_of_this_file>.cc
 
